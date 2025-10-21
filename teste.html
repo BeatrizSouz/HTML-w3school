@@ -5,17 +5,77 @@
 </head>
 
 <body>
-	<h1> Hello Word</h1>
+
+
+	<p> Esta é uma página para testar e estudar os conteúdos aprendidos no curso de html do <a 	href="https://www.w3schools.com">W3School </a> </p>
+	<p>Este um um outro parágrafo</p>
+	
+	<p> O br quebra a linha: <br> de um paráfrago</p>
+	
+
+
+
+	<h1> Atributos </h1>
+	<p> Os elementos HTML pode ter atributos que fornecem uma estilização e informação adicional ao que está 	sendo adicionado na página. São sempre especificados na tag de abertura, ex: <tag nome_atributo = 	"valor", é recomendado utilizar letras minúsculas.</p>
+
+	<h2>O atributo href</h2> 
+	<p> o atributo href especifica a URL da página</p>
+	<a href="https://www.w3schools.com">Site W3School </a>
+	<p> O link acima vai abrir na mesma aba do navegador(mesmo browser) mas é possível add o atributo target = 	"_blank" para abrir em uma nova aba, veja a diferença abaixo:</p>
+	 <a href="http://www.w3schools.com" target ="_blank">Site W3School</a>
+	
+	<p> <strong> Não entendi essa parte: </strong></p>
+	<p>Isso é um email com link:
+ 	<a href="mailto:someone@example.com?Subject=Hello%20again">
+ 	EnviarE-mail</a></p>
+	
+	<h2>O atributos para imagem</h2>
+	<p> A tag img é utilizada para adicionar uma imagem na página <br> E o aributo src é usado para especificar 	o caminho da 	imagem src="pasta1/img/img.jpg"</p>
+	<p> Durante a aula foi recomendado usar a extensão .webp </p><br>
+	<p> Para colocar as imagens lado a lado faça:</p>
+        <img src="img/imgAdalovelace.webp"><img src="img/png-transparent-pixel-cat-thumbnail.png" >
+	<br>
+	<p> posso adicionar atributos para mudar a largura width="500" e altura height="600"</p> 
+	<img src="img/png-transparent-pixel-cat-thumbnail.png"  width="500" height="600" "> 
+	<p> O atributo alt é serve como um texto alternativopara exibir quando a imagem não puder ser exibida.</p>
+	<img src="https://www.w3schools.com/images/img_girl.jpg" alt = "Garota com uma jaqueta">
+
+	<h2> O atributo de estilo </h2>
+	<p> Posso adicionar atributos aos elementos como style = "color:blue" para mudar para a cor azul</p>
+	<p style="color:red;">This is a red paragraph.</p>
+	<p>Posso adicionar o elemento span como <span style="color:blue">style="color:blue"</span> para modificar 	uma parte da frase sem precisar quebrar a linha.
+
+	<h2> O atributo title </h2>
+	<p title="Está é uma explicação do atributo title">o atributo title define informações extras sobre o 	elemento e aparece quando você passa o mause sobre o elemento.</p>
+	<h3> Obrigatóriedade das aspas</p>
+	<p title='John "ShotGun" Nelson'> O padrão HTML não requer aspas em torno de valores do atributo, mas é uma 	boa prática colocar aspas, pois as vezes o valor do atributo não será exibido corretamente quando contém 	espaços</p>
+	<h4> Aspas simples ou duplas?</h4>
+	<p>Tanto aspas duplas quanto aspas simples podem ser usadas, sendo as simples para citações e as duplas são 	as mais usadas, mas nada impede de usar as simples e duplas quando necessário, passe o mouse em cima das 	frases abaixo:<p>
+	<p title='John "ShotGun" Nelson'> Uso de aspas simples com duplas 
+	<p title="John 'ShotGun' Nelson"> ou também pode usar aspas duplas com simples. </p>
+
+	<a href="https://www.w3schools.com/tags/ref_attributes.asp">Acesse aqui para uma lista completa dos 	atributos</a>
+
+	
+	<h1> Cabeçalhos HTML </h1>
+
 	<h1>This is heading 1</h1>
 	<h2>This is heading 2</h2>
 	<h3>This is heading 3</h3>
 	<h6>This is heading 6- vai de 1 até 6</h6>
-
-	<p> Esta é uma página para testar e estudar os conteúdos aprendidos no curso de html do <a href="https://www.w3schools.com">    W3School </a> </p>
-	<p>Este um um outro parágrafo</p>
-	<img src="img/png-transparent-pixel-cat-thumbnail.png"> 
-	<p> O br quebra a linha: <br> de um paráfrago</p>
-	<img src="https://www.w3schools.com/images/img_girl.jpg">
-	<p style="color:red;">This is a red paragraph.</p>
+	
+	<p> h1 define o título mais importante e h6 o menos importante. Definir corretamente um título é importante 	para que os mecanismos de pesuisa usem os títulos par indexar a estrutura e o conteúdo das páginas na web, 	além disso, os usuários folheiam um página por seus títulos, que definem a estutura do documento.</p>
+	<p> É como em um trabalho, onde temos os tópicos e sub-tópicos para cada assunto abortado no trabalho, para 	a introdução e temas mais importantes colocamos uma formatação grande para definir a importancia desse 	tópico, seguindo pelos tópicos 'menos importante' ou sub-tópicos que pode ser definidos por h2,h3,h4 	etc</p>
+	
+	<h3> Para títulos maiores</h3>
+	<p>É possivel utilizar a propriedade do CSS: style font-size: valor em px, para especificar o tamanho do 	título e fugir do padrão definido pelo HTML.</p>
+	<h1 style="font-size:60px;">Exemplo utilizando o Heading 1</h1>
+	<h3 style="font-size:60px;">Exemplo utilizando o Heading 3</h3>
+	
+	
+	
+	
+	
+</p>
 </body>
 </html>
